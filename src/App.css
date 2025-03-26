@@ -1,0 +1,141 @@
+/* General Styles */
+html, body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  height: 100%; /* Full height */
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+.portfolio {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #ddd;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #444;
+}
+
+.header p {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+  color: #666;
+}
+/* Remove bullet points from unordered lists */
+.project-card ul {
+  list-style-type: none; /* Remove bullet points */
+  padding-left: 0; /* Remove default padding */
+}
+/* Container for the combined navigation and card */
+.card-with-navigation {
+  display: flex;
+  flex-direction: column; /* Stack navigation and card vertically */
+  gap: 20px; /* Space between navigation and card content */
+}
+
+/* Navigation bar styling */
+.card-navigation {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  justify-content: center; /* Center the buttons horizontally */
+}
+
+/* Style for navigation buttons */
+.card-navigation button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+/* Style for the active navigation button */
+.card-navigation button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Card content styling */
+.card-content {
+  width: 100%; /* Ensure the card content takes full width */
+}
+
+/* Flex container for ImageCard and CardWithNavigation */
+.card-row {
+  display: flex;
+  gap: 20px; /* Space between ImageCard and CardWithNavigation */
+  align-items: flex-start; /* Align items to the top */
+}
+
+/* Container for the ImageCard */
+.image-card-container {
+  flex: 0 0 auto; /* Do not grow or shrink */
+}
+
+/* Container for the CardWithNavigation */
+.card-with-navigation-container {
+  flex: 1; /* Allow CardWithNavigation to take up remaining space */
+}
+
+/* Flex container for ProjectCard and CardWithNavigation */
+.card-row {
+  display: flex;
+  justify-content: space-between; /* Space out the cards */
+  align-items: flex-start; /* Align cards at the top */
+  gap: 20px; /* Add space between the cards */
+  padding: 20px; /* Add padding around the container */
+}
+
+/* Project Card Container (right side) */
+.project-card-container {
+  flex: 1; /* Allow the ProjectCard to take up available space */
+  max-width: 60%; /* Limit the width of the ProjectCard */
+  margin-left: auto; /* Push the ProjectCard to the right */
+}
+
+/* CardWithNavigation Container (left side) */
+.card-with-navigation-container {
+  flex: 1; /* Allow the CardWithNavigation to take up available space */
+  max-width: 35%; /* Limit the width of the CardWithNavigation */
+}
+
+/* Ensure the ProjectCard and CardWithNavigation are aligned */
+.project-card, .card-with-navigation {
+  height: 100%; /* Ensure both cards have the same height */
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 2px solid #ddd;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Style for the image card sections */
+.image-card-section {
+  margin-bottom: 40px; /* Add space below each image card section */
+  text-align: center; /* Center the content */
+}
+
+.image-card-section h1 {
+  margin-bottom: 20px; /* Add space below the heading */
+}
+
