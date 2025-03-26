@@ -52,6 +52,7 @@ html, body {
   display: flex;
   gap: 10px; /* Space between buttons */
   justify-content: center; /* Center the buttons horizontally */
+  flex: auto;
 }
 
 /* Style for navigation buttons */
@@ -62,6 +63,7 @@ html, body {
   border-radius: 4px;
   cursor: pointer;
   background-color: #f0f0f0;
+  
 }
 
 /* Style for the active navigation button */
@@ -73,6 +75,7 @@ html, body {
 /* Card content styling */
 .card-content {
   width: 100%; /* Ensure the card content takes full width */
+  
 }
 
 /* Flex container for ImageCard and CardWithNavigation */
@@ -102,22 +105,16 @@ html, body {
 }
 
 /* Project Card Container (right side) */
-.project-card-container {
-  flex: 1; /* Allow the ProjectCard to take up available space */
-  max-width: 60%; /* Limit the width of the ProjectCard */
-  margin-left: auto; /* Push the ProjectCard to the right */
-}
+
 
 /* CardWithNavigation Container (left side) */
 .card-with-navigation-container {
   flex: 1; /* Allow the CardWithNavigation to take up available space */
-  max-width: 35%; /* Limit the width of the CardWithNavigation */
+  /* Limit the width of the CardWithNavigation */
 }
 
 /* Ensure the ProjectCard and CardWithNavigation are aligned */
-.project-card, .card-with-navigation {
-  height: 100%; /* Ensure both cards have the same height */
-}
+
 
 /* Footer Styles */
 .footer {

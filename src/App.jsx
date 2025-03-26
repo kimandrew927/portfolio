@@ -2,8 +2,11 @@ import { useState } from 'react';
 import './App.css';
 import ImageCard from './ImageCard.jsx';
 import CardWithNavigation from './CardWithNavigation.jsx'; // Import the combined component
-import "./CardWithNavigation.css"
+import "./CardWithNavigation.css";
+import './ExperienceCard.css';
+import './ProjectCard.css';
 function App() {
+
   return (
     <div className="portfolio">
       <header className="header">

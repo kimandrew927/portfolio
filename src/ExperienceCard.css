@@ -1,0 +1,85 @@
+.experience-card {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-card h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .experience-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .experience-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .experience-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+  
+  .experience-item strong {
+    color: #2c3e50;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  
+  .experience-item p {
+    color: #555;
+    margin: 5px 0;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .experience-card button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    display: block;
+    margin: 10px auto 0;
+    transition: background-color 0.3s;
+  }
+  
+  .experience-card button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Expanded view styles */
+  .experience-details {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .experience-details h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .details-list p {
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    padding-left: 0;
+  }
